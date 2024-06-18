@@ -2,24 +2,52 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+ font-family: 'Roboto', sans-serif;
 }
 
 body{
   background: url("./img/background.jpg");
+  background-size: auto;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 .container{
-  background-color: #d1d1d1;
+  background-color: #dadada;
   width: 500px;
   border-radius: 10px;
   padding: 20px;
   margin: 100px auto 0 auto;
+}
 
+.input-task{
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.button-add-task{
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  background-color: #80703d;
+  color: rgb(201, 201, 216);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 15px;
+  float: right;
+  cursor: pointer;
+}
+
+.button-add-task:hover{
+  opacity: 0.8;
 }
 
 img{
-  height: 25px;
+  height: 20px;
 }
+
+
 
