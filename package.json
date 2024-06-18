@@ -1,0 +1,14 @@
+{
+  "name": "2dolist",
+  "version": "1.0.0",
+  "description": "Projeto de aprendizado nodeJS MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Thiago Sampaio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
