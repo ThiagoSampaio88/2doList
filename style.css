@@ -25,6 +25,7 @@ body{
   border-radius: 5px;
   width: 300px;
   height: 40px;
+  font-size: 400;
   padding-left: 10px;
 }
 
@@ -43,11 +44,45 @@ body{
 
 .button-add-task:hover{
   opacity: 0.8;
+  /*deixa o botão mais claro*/
 }
+
+.button-add-task:active{
+  opacity: 0.5;
+  background-color: rgb(27, 48, 231);
+  /*deixa o botão mais claro*/
+}
+
+.list-task{
+  width: 100%;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.task{
+  background-color: #f2f2f2;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px; 
+  border-radius: 8px;
+  box-shadow: 1px 4px 10px #80703d;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.task:hover img{
+  opacity: 1;
+}
+
 
 img{
   height: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
+
+
 
 
 
